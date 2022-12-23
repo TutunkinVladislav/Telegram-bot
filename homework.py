@@ -1,4 +1,10 @@
-...
+import logging
+import os
+import time
+
+import requests
+import telegram
+from dotenv import load_dotenv
 
 load_dotenv()
 
